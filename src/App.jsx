@@ -7,7 +7,7 @@ function App() {
           <div className="w-2/5">
             <img src={logo} alt="" />
           </div>
-          <ul className="flex w-3/5 gap-12 capitalize justify-center">
+          <ul className="font-dm flex w-3/5 gap-12 capitalize justify-center">
             <li>home</li>
             <li>shop</li>
             <li>about</li>

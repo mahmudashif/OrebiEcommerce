@@ -7,8 +7,11 @@ export default {
   theme: {
     extend: {
       maxWidth: {
-        container: '1404px',
-      }
+        container: '1604px',
+      },
+      fontFamily: {
+        dm : ['DM Sans','sans-serif']
+      },
     },
   },
   plugins: [],

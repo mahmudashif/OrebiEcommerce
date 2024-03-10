@@ -1,11 +1,12 @@
 import React from "react";
 import logo from "../assets/Logo.png";
 import Flex from "./Layouts/Flex";
+import Container from "./Layouts/Container";
 
 const Navbar = () => {
   return (
-    <div>
-      <nav className="font-dm max-w-container mx-auto py-8">
+    <Container className="bg-red-300">
+      <nav className="font-dm py-8">
         <Flex>
           <div className="w-2/5">
             <img src={logo} alt="" />
@@ -23,7 +24,7 @@ const Navbar = () => {
           </div>
         </Flex>
       </nav>
-    </div>
+    </Container>
   );
 };
 

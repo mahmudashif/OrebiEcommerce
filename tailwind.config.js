@@ -12,6 +12,9 @@ export default {
       fontFamily: {
         dm : ['DM Sans','sans-serif']
       },
+      colors: {
+        primary: "#262626"
+      }
     },
   },
   plugins: [],
